@@ -37,13 +37,9 @@ public class Calculator {
     public StringBuilder binar(Object obj) {
         StringBuilder stringBuilder = new StringBuilder();
         if (obj instanceof Number){
-            /**
-             * Реализация из коробки
-             */
+            
             stringBuilder.append(Integer.toBinaryString(((Number) obj).intValue()));
-            /**
-             * Самописная реализация
-             */
+           
 //            Integer numerator = ((Number) obj).intValue();
 //            while (numerator > 0) {
 //                stringBuilder.append(numerator%2);
